@@ -10,4 +10,4 @@ The heavy-weight portion of the project is understanding and manipulating the co
 Working with ROOT files in python does not have much material to reference. I hope this project can be of help to those who wants to quickly bridge the gap between ROOT and Python in their workflow.
 
 ## Special notice
-In theory, the feature "vp_pt", aka the pt of gen particles, would always have a value. But in my data, there is a null value in all the 500000 events. I assume this is a result of a bug in the simulation process. Using my method of vstack all events, the missing value can be easily omitted, leaving the whole dataset misalign. The little bug left my models underperform for months.
+In theory, the feature "vp_pt", aka the pt of gen particles, would always have a value. But in my data, there is a single null value in all the 500000 events. I assume this is a result of a bug in the simulation process. Using my method of vstack all events, the missing value can be easily omitted, leaving the whole dataset misalign. The little bug left my models underperform for months.
